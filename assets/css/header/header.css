@@ -4,7 +4,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
+
   
 }
 
@@ -29,21 +30,17 @@ header .descricao {
   flex-direction: column;
   padding: 10px;
 }
-header .descricao .descricao-texto {
 
-  margin-top: 50px;
-}
-header .descricao .descricao-texto h2 {
- 
-  margin-bottom: 20px;
-}
 header .descricao .descricao-texto h1 {
  
   margin-bottom: 20px;
   font-weight: bold;
-  font-size: 50px;
-  color: #ffffff;
+  font-size: 60px;
+  background: linear-gradient( #dddcfa,#000000);
+  color: transparent;
+  background-clip: text;
 }
+
 header .descricao .descricao-texto p {
   font-size: 15px;
   font-weight: 400;
@@ -60,4 +57,7 @@ header .descricao .descricao-btn a {
   color: #a1a1a1;
   border-radius: 10px;
   text-decoration: none;
+}
+header .descricao .descricao-btn :hover {
+background-color: #252525;
 }

@@ -5,10 +5,10 @@ revelar.reveal('.imagen-beast',{
     duration: 2000,
     distance: '400px',
      origin: 'left',
-     delay: 2000,
+     delay: 1700,
      opacity: 0,
      easing: 'ease-in-out',
-     scale: 0.10
+     scale: 0.8
      
 })
 revelar.reveal('.descricao-texto',{
@@ -19,47 +19,67 @@ revelar.reveal('.descricao-texto',{
     easing: 'ease-in-out'
 })
 revelar.reveal('.descricao-btn',{
-    duration: 1100,
+    duration: 1200,
     distance: '400px',
-    delay: 1300,
+    delay: 1200,
     origin: 'bottom'
 })
 
 // Os titulos das sessoes
 
-revelar.reveal('.titulo',{
-    duration: 2000,
-    distance: '120px'
+revelar.reveal('.especial',{
+    duration: 1000,
+    distance: '100px',
+     origin: 'top',
+     delay: 500,
+     opacity: 0,
+     easing: 'linear'
+
 })
 
-// sessao de especialidades
+// sessao  info-texto
 
-revelar.reveal('.efeito-especialidades1',{
+revelar.reveal('.info-texto1',{
+    duration: 1000,
+    distance: '120px',
+    delay: 1000,
+    origin: 'left'
+})
+revelar.reveal('.info-texto2',{
+    duration: 1500,
+    distance: '120px',
+    delay: 1100,
+     origin: 'left'
+})
+revelar.reveal('.info-texto3',{
     duration: 2000,
     distance: '120px',
-    delay: 1000
+    delay: 1700,
+     origin: 'left'
 })
-revelar.reveal('.efeito-especialidades2',{
-    duration: 2000,
+revelar.reveal('.info-texto4',{
+    duration: 2200,
     distance: '120px',
-    delay: 1500
+    delay: 1900,
+     origin: 'left'
 })
-revelar.reveal('.efeito-especialidades3',{
-    duration: 2000,
+
+//sessao headphone-especificações
+
+revelar.reveal('.headphone-especificações',{
+    duration: 2500,
     distance: '120px',
-    delay: 2000
+    delay: 2100,
+    origin: 'bottom',
+    opacity: 0,
+     easing: 'ease-in-out',
+     scale: 0.9
 })
 
-//sessao sobre
-
-revelar.reveal('.efeito-img-sobre',{
-    duration: 2000,
-    distance: '120px',
-    delay: 500,
-    origin: 'top'
 
 
-})
+
+
 revelar.reveal('.efeito-txt-sobre',{
     duration: 2000,
     distance: '120px',

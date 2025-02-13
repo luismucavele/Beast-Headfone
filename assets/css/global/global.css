@@ -8,15 +8,21 @@
 body{
     background-color: #0F0F10;
     color: white;
-    font-family: "Poppins", serif;
-    padding-top: 100px;
-    
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    padding-top: 90px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 
-.imagen-beast, .descricao-texto, .descricao-btn{
+.imagen-beast, .descricao-texto, .descricao-btn, .especial, 
+.info-texto1,  .info-texto2,  .info-texto3,  .info-texto4, .headphone-especificações{
     visibility: hidden;
 }
+
 
 
 
