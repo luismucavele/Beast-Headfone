@@ -10,11 +10,13 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
-    padding-top: 90px;
+    
+   
 }
 
 html{
     scroll-behavior: smooth;
+    height: 100%
 }
 
 

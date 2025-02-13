@@ -3,12 +3,12 @@ window.revelar = ScrollReveal({reset:false})
 //top header
 revelar.reveal('.imagen-beast',{
     duration: 2000,
-    distance: '400px',
+    distance: '90px',
      origin: 'left',
      delay: 1700,
      opacity: 0,
      easing: 'ease-in-out',
-     scale: 0.8
+     scale: 0.9
      
 })
 revelar.reveal('.descricao-texto',{
@@ -20,7 +20,7 @@ revelar.reveal('.descricao-texto',{
 })
 revelar.reveal('.descricao-btn',{
     duration: 1200,
-    distance: '400px',
+    distance: '100px',
     delay: 1200,
     origin: 'bottom'
 })
@@ -41,26 +41,26 @@ revelar.reveal('.especial',{
 
 revelar.reveal('.info-texto1',{
     duration: 1000,
-    distance: '120px',
+    distance: '100px',
     delay: 1000,
     origin: 'left'
 })
 revelar.reveal('.info-texto2',{
     duration: 1500,
-    distance: '120px',
+    distance: '100px',
     delay: 1100,
      origin: 'left'
 })
 revelar.reveal('.info-texto3',{
     duration: 2000,
-    distance: '120px',
-    delay: 1700,
+    distance: '100px',
+    delay: 1400,
      origin: 'left'
 })
 revelar.reveal('.info-texto4',{
     duration: 2200,
-    distance: '120px',
-    delay: 1900,
+    distance: '100px',
+    delay: 1600,
      origin: 'left'
 })
 
@@ -68,7 +68,7 @@ revelar.reveal('.info-texto4',{
 
 revelar.reveal('.headphone-especificações',{
     duration: 2500,
-    distance: '120px',
+    distance: '100px',
     delay: 2100,
     origin: 'bottom',
     opacity: 0,

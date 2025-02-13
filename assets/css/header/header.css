@@ -4,7 +4,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin-top: 85px;
 
   
 }
@@ -18,7 +18,7 @@ header .imagen-beast {
   align-items: center;
 }
 header .imagen-beast img {
-  width: 600px;
+  width: 580px;
   height: 550px;
   object-fit: cover;
 }
