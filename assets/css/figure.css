@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+figure{
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+    padding: 10px 150px;
+    border: 2px solid red;
+  
+}
+figure h2{
+    background: linear-gradient(#868692, #000000);
+    color: transparent;
+    background-clip: text;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+figure .case{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+figure .case .case-imagem{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+figure .case .case-imagem img{
+    width: 250px;
+    height: 330px;
+    
+
+}
+
+
+figure .case .case-descricao{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+
+}
+figure .case .case-descricao p{
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+
+}
+
+figure .case-descricao .case-descricao-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 42%;
+    padding: 10px;
+    background-color: black;
+    font-weight: 500;
+    color: #a1a1a1;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 70%;
+    height: 50px;
+  }
+
+  figure .case-descricao .case-descricao-btn a:hover{
+    background-color: #252525;
+  }
+
+
+/* Descricoa */
+
+
+figure .disconto{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color:#181A1B;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+figure .disconto .disconto-imagem{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+figure .disconto .disconto-imagem img{
+    width: 320px;
+    height: 320px;
+    
+
+}
+
+
+figure .disconto .disconto-descricao{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+figure .disconto .disconto-descricao span{
+   margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;;
+
+}
+figure .disconto .disconto-descricao p{
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;;
+
+}
+
+figure .disconto-descricao .disconto-descricao-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 42%;
+    padding: 10px;
+    background-color: black;
+    font-weight: 500;
+    color: #a1a1a1;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 55%;
+    height: 50px;
+  }
+
+  figure .disconto-descricao .disconto-descricao-btn a:hover{
+    background-color: #252525;
+  }

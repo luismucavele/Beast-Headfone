@@ -86,5 +86,65 @@ ScrollReveal().reveal('.headphone-especificações', {
 
 
 
+/* figure */
+
+/* 🔹 Texto da seção (surge suavemente de baixo) */
+ScrollReveal().reveal('.figure-texto', {
+    duration: 1200, 
+    distance: '80px', 
+    origin: 'bottom',
+    delay: 200,  
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+
+/* 🔹 Imagem da seção (desce suavemente de cima) */
+ScrollReveal().reveal('.case-imagem', {
+    duration: 1200, 
+    distance: '80px', 
+    origin: 'top',
+    delay: 400,  
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+
+/* 🔹 Descrição da imagem (aparece logo após a imagem) */
+ScrollReveal().reveal('.case-descricao', {
+    duration: 1200, 
+    distance: '60px',  // Menos movimento para um efeito mais natural
+    origin: 'bottom',
+    delay: 600,  // Aparece depois da imagem, criando uma sequência progressiva
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+
+
+
+/* Disconto */
+
+
+// 🔹 Texto da descrição vem da esquerda 🡆
+ScrollReveal().reveal('.disconto-descricao', {
+    duration: 1200, 
+    distance: '100px',  // Movimento mais sutil
+    origin: 'left',  // Vem da esquerda
+    delay: 400,  // Aparece primeiro
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+
+// 🔹 Imagem vem da direita 🡄
+ScrollReveal().reveal('.disconto-imagem', {
+    duration: 1200, 
+    distance: '100px',  // Movimento mais sutil
+    origin: 'right',  // Vem da direita
+    delay: 600,  // Aparece logo depois do texto
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+
+
+
+
 
 

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 section {
   width: 100%;
   height: 900px;
@@ -26,10 +26,10 @@ section .especial {
   margin-top: 100px;
 }
 section .especial h2 {
-  background: linear-gradient(#dddcfa, #000000);
+  background: linear-gradient(#868692, #000000);
   color: transparent;
   background-clip: text;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 section .info-beast {
@@ -50,6 +50,7 @@ section .info-beast .info-texto i {
 section .info-beast .info-texto span {
   color: #a1a1a1;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;;
 }
 section .info-beast .info-texto .info-texto1 {
   width: 90%;

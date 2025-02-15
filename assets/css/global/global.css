@@ -21,9 +21,13 @@ html{
 
 
 .imagen-beast, .descricao-texto, .descricao-btn, .especial, 
-.info-texto1,  .info-texto2,  .info-texto3,  .info-texto4, .headphone-especificações{
+.info-texto1,  .info-texto2,  .info-texto3,  .info-texto4, 
+.headphone-especificações,.figure-texto, .case-imagem,
+ .case-descricao, .disconto-descricao, .disconto-imagem{
     visibility: hidden;
 }
+
+
 
 
 
