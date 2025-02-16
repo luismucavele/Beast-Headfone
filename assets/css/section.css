@@ -14,8 +14,9 @@ section .stream {
   justify-content: space-around;
 }
 section .stream img {
-  width: 100px;
-  height: 35px;
+  width: 90px;
+  height: auto;
+
 }
 section .especial {
   width: 100%;

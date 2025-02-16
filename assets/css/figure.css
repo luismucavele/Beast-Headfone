@@ -4,7 +4,6 @@ figure{
     height: 1000px;
     margin-top: 50px;
     padding: 10px 150px;
-    border: 2px solid red;
   
 }
 figure h2{
@@ -54,7 +53,7 @@ figure .case .case-descricao{
 figure .case .case-descricao p{
     color: #a1a1a1;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
     line-height: 30px;
 

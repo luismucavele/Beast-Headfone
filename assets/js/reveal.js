@@ -1,4 +1,4 @@
-window.revelar = ScrollReveal({reset:false})
+window.revelar = ScrollReveal({reset:false, mobile: false})
 
 //top header
 // Imagem principal (aparece primeiro)
@@ -34,12 +34,12 @@ ScrollReveal().reveal('.descricao-btn', {
 
 // TITULOS DAS SEÇÕES (Animação do topo)
 ScrollReveal().reveal('.especial', {
-    duration: 1000,
-    distance: '100px',
+    duration: 1500, 
+    distance: '80px', 
     origin: 'top',
-    delay: 300,  // Diminui um pouco o delay para mais agilidade
+    delay: 600,  
     opacity: 0,
-    easing: 'ease-in-out' // Suaviza a animação
+    easing: 'ease-in-out'
 });
 
 // INFORMAÇÕES (Animação da esquerda para a direita em cascata)
@@ -139,6 +139,52 @@ ScrollReveal().reveal('.disconto-imagem', {
     distance: '100px',  // Movimento mais sutil
     origin: 'right',  // Vem da direita
     delay: 600,  // Aparece logo depois do texto
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+
+//main
+
+
+ScrollReveal().reveal('.main-texto', {
+    duration: 1200, 
+    distance: '80px', 
+    origin: 'top',
+    delay: 200,  
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+ScrollReveal().reveal('.beats-4-txt', {
+    duration: 1200, 
+    distance: '80px', 
+    origin: 'top',
+    delay: 200,  
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+ScrollReveal().reveal('.card-beats-4', {
+    duration: 1200, 
+    distance: '80px', 
+    origin: 'bottom',
+    delay: 200,  
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+
+//footer
+ScrollReveal().reveal('.inscricao', {
+    duration: 1200, 
+    distance: '80px', 
+    origin: 'rigth',
+    delay: 300,  
+    opacity: 0,
+    easing: 'ease-in-out'
+});
+ScrollReveal().reveal('.direitos', {
+    duration: 1500, 
+    distance: '80px', 
+    origin: 'top',
+    delay: 600,  
     opacity: 0,
     easing: 'ease-in-out'
 });

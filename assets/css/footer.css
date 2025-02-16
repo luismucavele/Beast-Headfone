@@ -1,0 +1,55 @@
+.rodape {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.conteudo-rodape {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.conteudo-rodape .logo img {
+   width: 20px;
+   height: 20px;
+}
+
+.coluna ul {
+    list-style: none;
+    padding: 0;
+}
+.coluna ul li a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+}
+.coluna ul li a:hover{
+    text-decoration:underline;
+    
+}
+.inscricao input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#181A1B;
+}
+.inscricao button {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.redes-sociais a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.direitos p{
+    font-size: 12px;
+    color: #a1a1a1;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

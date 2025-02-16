@@ -1,0 +1,98 @@
+main{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+}
+
+
+main .main-texto{
+    background: linear-gradient(#4e4e4e, #161616);
+    color: transparent;
+    background-clip: text;
+    font-size: 60px;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+
+
+main .beats-4{
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+main .beats-4 h2{
+    background: linear-gradient(#4e4e4e, #505050);
+    color: transparent;
+    background-clip: text;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+main .beats-4 .card-beats-4{
+    width: 100%;
+    height: 250px;
+   display: flex;
+   justify-content: space-around;
+    
+   
+}
+main .beats-4 .card-beats-4 .card-beats-4-1{
+    width: 15%;
+    height: 100%;
+    border-radius: 15px;  
+}
+main .beats-4 .card-beats-4 .card-beats-4-1:hover{
+        transform: scale(1.1);
+        transition: .3s;
+}
+main .beats-4 .card-beats-4 .card-beats-4-1 .card-beats-4-img{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .beats-4 .card-beats-4 .card-beats-4-1 .card-beats-4-img img{
+  width: 180px;
+  height: 180px;
+  position: absolute;
+}
+main .beats-4 .card-beats-4 .card-beats-4-1 .card-beats-4-img .image{
+  width: 100px;
+  height: 150px;
+  position: absolute;
+}
+main .beats-4 .card-beats-4 .card-beats-4-1 .card-beats-4-price{
+    width: 100%;
+    height: 50%;
+    background-color: #181A1B;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+main .beats-4 .card-beats-4 .card-beats-4-1 .card-beats-4-price span{
+    color: #d8d5d5;
+    font-weight: 600;
+}
+main .beats-4 .card-beats-4 .card-beats-4-1 .card-beats-4-price i{
+    background-color: #0a0a0b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+main .beats-4 .card-beats-4 .card-beats-4-1 .card-beats-4-price i:hover{
+    background-color: #252525;
+    
+}
+
+
+
